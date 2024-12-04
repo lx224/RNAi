@@ -18,7 +18,11 @@ Synthetic Biology
 This input template consists of 8 separate sheets. 3 of them must be preserved for script generation. 5 of them could be adjusted according to experimental design.
 ##### 3 Not-To-Be-Disturbed Sheets
 - Labwares: This sheet has 5 columns: 'Labwares Type', 'Specific Type', 'Location on Opentron', 'Names' and 'API'.
+-     'Labwares Type' only takes 3 types of input: 'Tips Racks', 'Reservoirs' and 'Well Plates'. You may add as many tips racks and reservoirs as you need. (Well Plates number should be smaller than or equal to 2 due to complexity (and thus extensive tip usage) of the screening process.) However, the total amounts of Labwares/rows should not exceed opentron's compatbility (14). Although the inputs in this column is restricted to these 3 types, it leaves room for future updates on the codes to include more standard labwares.
+-     'Specific Type': In this column, you should input '20'or '300' for 'Tips Racks' for P20 and P300 pipettes; '12' for 'Reservoirs' and '96' for 'Well Plates'. Although the inputs in this column is restricted to these 5 numbers, it leaves room for future updates on the codes to include more standard labwares.
+-     'Location on Opentron': This column takes integer numbers 1-14 as inputs. It specifies where labwares should be placed on opentron platform. Please make sure 
 - Reservoir and Reagents: This sheet has 4 columns: 'Reagent Types', 'Reagents', 'Reservoir' and 'Reservoir Well'.
+-     
 - Addition_V&T: This sheet has 4 columns:'Addition Volume', 'Wait Time (s)' and 'Order'.
 ##### 5 Adjustable Sheets
 - 4 'XXXXXX Layout 96 Well Plate':
