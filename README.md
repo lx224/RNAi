@@ -79,8 +79,13 @@ The input template consists of eight sheets. Three sheets must remain for script
    - **Labware Type:** `Tips Racks`, `Reservoirs`, and `Well Plates`. Maximum 14 slots.  
    - **Specific Type:** `20` or `300` for tip racks, `12` for reservoirs, and `96` for well plates.  
    - **Location on Opentron:** Slots 1–14 for labware placement.
-   - Example Layout for PartI: (mp20 pipette will collapse with tip racks if you do not follow this layout)
-     ![Opentron Layout Example](https://github.com/user-attachments/assets/ad0d7f96-ed5e-4d8f-b4bd-66f607acc91a)  
+   - Examples:
+
+     **Layout for PartI:
+        `multi-channel P20` will collapse with tip racks if you do not follow this layout**
+     <img width="585" alt="{0C4E3FAB-1171-4DF6-B10A-AFCA870688CC}" src="https://github.com/user-attachments/assets/079436da-6711-40f8-9cef-520aea7ffdba">
+    **Layout for Part III:**
+     <img width="615" alt="{7166208B-7D15-4550-9AC6-13974F48B173}" src="https://github.com/user-attachments/assets/46648810-fa00-4e4e-b528-74ac8a89fec9">
    - **Names:** Python-formatted names (e.g. res_1)
    - **API:** Specify compatible Opentrons labware.  
      ![Labwares Example](https://github.com/user-attachments/assets/fc871f97-f45c-4ed1-9a01-cd5a164f5777)  
